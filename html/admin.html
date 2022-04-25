@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rol de adminitrador</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+
+    <section class="cols-1">
+        <figure>
+            <p>Gráfico lineal</p>
+            <h3>Ventas de la semana del 17-04-2022 al 24-04-2022</h3>
+            <canvas id="chart6"></canvas>
+        </figure>
+    </section>
+
+    <section class="cols-1">
+        <figure>
+            <p>Gráfico de área polar</p>
+            <h3>Ventas por producto</h3>
+            <canvas id="chart2"></canvas>
+        </figure>
+    </section>
+
+
+    <a href="/html/login.html">
+        <button class="submit1" type="submit1" style="text-align: center;" > Cerrar sesion </button>
+      </a>   
+
+
+       <!-- ChartJS -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+
+    <script src="/Js/graficos.js"></script>
+    <script src="/Js/chart.js"></script>
+    <script>
+        ventasMes("chart6");
+    </script>
+</body>
+</html>

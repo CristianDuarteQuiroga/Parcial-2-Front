@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Registro</title>
+
+</head>
+    <link href="/css/estilos.css" rel="stylesheet" type="text/css" />
+    <base href="/"> 
+<body>
+    
+    <form class="login">
+  
+        <fieldset>
+            <legend class="legend">Registro </legend>
+          
+            <div class="input">
+                <input id="nombre" placeholder="Nombres"  />           
+            </div>
+
+            <div class="input">
+                <input id="apellidos" placeholder="Apellidos"  />
+            </div>
+
+            <div class="input">
+                <input id="telefono" placeholder="Telefono" />
+            </div>
+
+          <div class="input">
+              <input id="correo"  placeholder="Correo"  />
+          </div>
+          
+          <div class="input">
+              <input id="contrasena"  placeholder="Contraseña"  />
+          </div>
+
+          <div class="input">
+            <select id="rol"> 
+                <option value="administrador">Administrador</option>
+                <option value="cliente">Cliente</option>
+            </select>
+        </div>
+          
+          <button onclick="registro();" type="submit" class="submit1">Registrarse</i></button>
+          
+        </fieldset>
+        
+       
+      </form>
+
+      
+      <a href="/html/login.html">
+        <button type="submit" class="submit1" > Iniciar sesión </button>
+      </a>
+      <br>
+      
+
+    <script type="text/javascript" src="/Js/js.js"></script>
+</body>
+</html>
